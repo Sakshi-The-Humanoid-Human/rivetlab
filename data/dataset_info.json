@@ -1,0 +1,23 @@
+{
+  "network_identifier": 1219,
+  "network_name": "havens_1992_19840601_1219",
+  "dataset_title": "Food web of pelagic communities of small lakes and ponds of the Beaver Lake",
+  "description": "Food web of pelagic communities of small lakes and ponds of the Beaver Lake.",
+  "scientific_reference": "Havens, K. E. (1992). Scale and structure in natural food webs. Science, 257(5073), 1107-1109.",
+  "doi": "10.1126/science.257.5073.1107",
+  "dataset_source": "mangal.io",
+  "dataset_source_url": "https://mangal.io",
+  "api_documentation": "https://mangal-interactions.github.io/mangal-api/",
+  "retrieval_date": "2026-11-02",
+  "n_nodes": 56,
+  "n_edges": 267,
+  "edge_direction_convention": "RESOURCE -> CONSUMER (the Mangal API records directed trophic interactions as CONSUMER -> RESOURCE; edges were reversed to follow the resource-to-consumer convention used in RivetLab)",
+  "interaction_types": ["herbivory", "predation", "detritivore"],
+  "data_cleaning_operations": [
+    "self-loop on node 16874 retained",
+    "self-loop on node 16873 retained",
+    "self-loop on node 16884 retained",
+    "self-loop on node 16883 retained",
+    "self-loop on node 16882 retained"
+  ]
+}

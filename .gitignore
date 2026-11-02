@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+# Streamlit
+.streamlit/secrets.toml
+# Data exploration artifacts
+explore_mangal.py
+test_api.py
+test_network.py
+find_network.py
+find_network.log
+candidates.json
+# IDEs
+.pytest_cache/
+.vscode/
+.idea/
+# OS
+.DS_Store
+Thumbs.db
